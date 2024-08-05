@@ -5,6 +5,5 @@ class Solution {
             if (map.containsKey(target - nums[i])) 
                 return new int[]{map.get(target - nums[i]) - 1,i};
         return new int[]{0,0};
-        
     }
 }
