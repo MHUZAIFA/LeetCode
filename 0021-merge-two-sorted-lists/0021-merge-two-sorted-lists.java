@@ -45,15 +45,6 @@ class Solution {
             header = header.next;
         }
         
-        ListNode newheader = sortedList;
-        
-        
-        while(newheader != null) {
-            System.out.println(newheader.val);
-            newheader = newheader.next;
-        }
-        
-        
         return sortedList.next;
     }
 }
